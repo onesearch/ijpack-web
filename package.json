@@ -7,10 +7,13 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "clean:images": "rm -rf .next/cache/images .next/dev/cache/images"
+    "clean:images": "rm -rf .next/cache/images .next/dev/cache/images",
+    "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
+    "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy"
   },
   "dependencies": {
-    "next": "16.3.8",
+    "@opennextjs/cloudflare": "^1.20.17",
+    "next": "^16.4.6",
     "react": "19.2.8",
     "react-dom": "19.2.8"
   },
@@ -19,7 +22,8 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
-    "eslint-config-next": "16.3.8",
-    "typescript": "^5"
+    "eslint-config-next": "^16.4.6",
+    "typescript": "^5",
+    "wrangler": "^4.163.0"
   }
 }
