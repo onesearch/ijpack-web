@@ -91,8 +91,8 @@ export default function QuoteForm() {
       <input type="text" name="website" tabIndex={-1} autoComplete="off" aria-hidden="true" style={{ position: "absolute", left: "-9999px", width: "1px", height: "1px" }} />
       <label style={{ display: "inline-flex", alignItems: "center", gap: "10px", fontSize: "14px", color: "#6E7672", cursor: "pointer" }}>
         <input type="checkbox" name="agree" value="yes" style={{ width: "18px", height: "18px", accentColor: "#79BC38", cursor: "pointer" }} />
-        <span data-ko="">개인정보 수집 및 이용에 동의합니다</span>
-        <span data-en="">I agree to the privacy policy</span>
+        <span data-ko=""><a href="/privacy" target="_blank" rel="noopener" style={{ color: "#4F8420", textDecoration: "underline" }}>개인정보 수집 및 이용</a>에 동의합니다</span>
+        <span data-en="">I agree to the <a href="/privacy" target="_blank" rel="noopener" style={{ color: "#4F8420", textDecoration: "underline" }}>privacy policy</a></span>
       </label>
       <div style={{ display: "flex", gap: "14px", flexWrap: "wrap", alignItems: "center" }}>
         <button type="submit" className="btn" disabled={status === "sending"} style={{ appearance: "none", border: "none", cursor: status === "sending" ? "wait" : "pointer", padding: "16px 34px", borderRadius: "6px", background: "#79BC38", color: "#fff", fontFamily: "inherit", fontSize: "17px", fontWeight: 700, whiteSpace: "nowrap", opacity: status === "sending" ? 0.7 : 1 }}>
