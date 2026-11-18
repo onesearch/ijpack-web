@@ -22,7 +22,7 @@ const plexMono = IBM_Plex_Mono({
 
 const title = "대림 아이제이팩 | 친환경 비닐·연포장 전문 기업";
 const description =
-  "비닐 제품과 연포장 제품의 생산과 인쇄 전문 기업 (주)아이제이팩. 녹색기술인증(GT-23-01587) 저유해성 잉크 포장재, ISO 9001·14001 인증, 그라비어·플렉소 인쇄부터 합지·제대까지 일괄 생산.";
+  "친환경 비닐·연포장 전문 기업 (주)아이제이팩. 그라비어 인쇄부터 합지·제대까지 일괄 생산, 녹색기술인증·ISO 9001·14001 보유.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
