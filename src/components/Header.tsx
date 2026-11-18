@@ -47,8 +47,8 @@ export default function Header() {
             <LangButton value="ko" />
             <LangButton value="en" />
           </div>
-          <a className="btn header-tel" href="tel:031-437-0146" style={{ fontFamily: "var(--font-mono)", fontSize: "14px", fontWeight: 500, color: "#02538A", whiteSpace: "nowrap" }}>
-            031-437-0146
+          <a className="btn header-tel" href="tel:031-704-8701" style={{ fontFamily: "var(--font-mono)", fontSize: "14px", fontWeight: 500, color: "#02538A", whiteSpace: "nowrap" }}>
+            031-704-8701
           </a>
         </div>
       </div>

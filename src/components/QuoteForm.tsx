@@ -12,7 +12,7 @@ type Status = "idle" | "sending" | "sent" | "needs-consent" | "error";
 const messages: Record<Exclude<Status, "idle" | "sending">, { tone: "ok" | "error"; ko: string; en: string }> = {
   sent: { tone: "ok", ko: "문의가 접수되었습니다. 담당자가 1영업일 내에 회신드립니다.", en: "Thank you — we will reply within one business day." },
   "needs-consent": { tone: "error", ko: "개인정보 수집 및 이용에 동의해 주세요.", en: "Please agree to the privacy policy." },
-  error: { tone: "error", ko: "전송에 실패했습니다. 잠시 후 다시 시도하시거나 031-437-0146으로 연락해 주세요.", en: "Sending failed. Please try again later or call +82-31-437-0146." },
+  error: { tone: "error", ko: "전송에 실패했습니다. 잠시 후 다시 시도하시거나 031-704-8701으로 연락해 주세요.", en: "Sending failed. Please try again later or call +82-31-704-8701." },
 };
 
 function Label({ ko, en, required }: { ko: string; en: string; required?: boolean }) {
@@ -99,9 +99,9 @@ export default function QuoteForm() {
           <span data-ko="">{status === "sending" ? "보내는 중…" : "문의 보내기"}</span>
           <span data-en="">{status === "sending" ? "Sending…" : "Send enquiry"}</span>
         </button>
-        <a className="btn" href="tel:031-437-0146" style={{ padding: "16px 30px", borderRadius: "6px", border: "1px solid #E2E6E3", background: "#fff", color: "#181818", fontSize: "17px", fontWeight: 700, whiteSpace: "nowrap" }}>
-          <span data-ko="">전화 상담 031-437-0146</span>
-          <span data-en="">Call +82-31-437-0146</span>
+        <a className="btn" href="tel:031-704-8701" style={{ padding: "16px 30px", borderRadius: "6px", border: "1px solid #E2E6E3", background: "#fff", color: "#181818", fontSize: "17px", fontWeight: 700, whiteSpace: "nowrap" }}>
+          <span data-ko="">전화 상담 031-704-8701</span>
+          <span data-en="">Call +82-31-704-8701</span>
         </a>
       </div>
       <div role="status" aria-live="polite">
