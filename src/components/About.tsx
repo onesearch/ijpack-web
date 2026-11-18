@@ -6,7 +6,7 @@ export default function About() {
     <section id="about" style={{ background: "#0F1410", padding: "96px 0", position: "relative", overflow: "hidden" }}>
     <div style={{ position: "absolute", top: "-120px", left: "-120px", width: "480px", height: "480px", background: "radial-gradient(circle,rgba(121,188,56,.28),transparent 64%)" }}></div>
     <div className="split" style={{ position: "relative", maxWidth: "1200px", margin: "0 auto", padding: "0 24px", display: "grid", gridTemplateColumns: "minmax(0,1fr) minmax(0,1.08fr)", gap: "56px", alignItems: "center" }}>
-    <div data-reveal="" style={{ borderRadius: "16px", overflow: "hidden", border: "1px solid rgba(255,255,255,.14)" }}><Img src="/assets/photos/building.png" alt="아이제이팩 사옥" sizes="(max-width: 1024px) 100vw, 560px" style={{ width: "100%", height: "400px", objectFit: "cover", display: "block" }} /></div>
+    <div data-reveal="" style={{ borderRadius: "16px", overflow: "hidden", border: "1px solid rgba(255,255,255,.14)" }}><Img src="/assets/photos/building.webp" alt="아이제이팩 사옥" sizes="(max-width: 1024px) 100vw, 560px" style={{ width: "100%", height: "400px", objectFit: "cover", display: "block" }} /></div>
     <div data-reveal="">
     <div style={{ fontFamily: "var(--font-mono)", fontSize: "12px", letterSpacing: ".16em", color: "#98CF62" }}>05 — ABOUT</div>
     <h2 style={{ margin: "14px 0 0", fontSize: "36px", fontWeight: "900", letterSpacing: "-.03em", color: "#fff", lineHeight: "1.25" }}><span data-ko="">대림산업에서 분리한<br />친환경 포장 전문 기업</span><span data-en="">A packaging specialist<br />spun off from DAELIM</span></h2>

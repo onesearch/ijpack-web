@@ -51,7 +51,7 @@ export default function LegalPage({ doc }: { doc: LegalDoc }) {
       <header style={{ borderBottom: "1px solid #E2E6E3", background: "#fff" }}>
         <div style={{ maxWidth: "860px", margin: "0 auto", padding: "0 24px", minHeight: "76px", display: "flex", alignItems: "center", justifyContent: "space-between", gap: "16px" }}>
           <a href="/" aria-label="대림 아이제이팩 홈">
-            <Img src="/assets/logo-primary.png" alt="대림 아이제이팩" style={{ height: "34px" }} />
+            <Img src="/assets/logo-primary.webp" alt="대림 아이제이팩" style={{ height: "34px" }} />
           </a>
           <a className="lnk" href="/" style={{ fontSize: "14px", fontWeight: 700, color: "#181818" }}>← 홈으로</a>
         </div>

@@ -5,7 +5,7 @@ import Img from "./Img";
 export default function Hero() {
   return (
     <section id="top" style={{ position: "relative", overflow: "hidden", background: "#0F1410" }}>
-    <Img src="/assets/photos/building.png" alt="" preload sizes="100vw" style={{ position: "absolute", inset: "0", width: "100%", height: "100%", objectFit: "cover", opacity: ".5" }} />
+    <Img src="/assets/photos/building.webp" alt="" preload sizes="100vw" style={{ position: "absolute", inset: "0", width: "100%", height: "100%", objectFit: "cover", opacity: ".5" }} />
     <div style={{ position: "absolute", inset: "0", background: "linear-gradient(100deg,rgba(15,20,16,.94) 34%,rgba(15,20,16,.55) 70%,rgba(15,20,16,.35))" }}></div>
     <div style={{ position: "absolute", top: "-140px", right: "-60px", width: "520px", height: "520px", background: "radial-gradient(circle,rgba(121,188,56,.35),transparent 62%)" }}></div>
     <div style={{ position: "relative", maxWidth: "1200px", margin: "0 auto", padding: "104px 24px 88px" }}>

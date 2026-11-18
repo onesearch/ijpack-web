@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     siteName: "대림 아이제이팩",
     title,
     description,
-    images: [{ url: "/assets/photos/building.png" }],
+    images: [{ url: "/assets/photos/og.jpg" }],
   },
 };
 

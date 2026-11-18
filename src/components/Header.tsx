@@ -32,7 +32,7 @@ export default function Header() {
     <header style={{ position: "sticky", top: 0, zIndex: 30, background: "rgba(255,255,255,.94)", backdropFilter: "blur(10px)", borderBottom: "1px solid #E2E6E3" }}>
       <div style={{ maxWidth: "1200px", margin: "0 auto", padding: "0 24px", minHeight: "76px", display: "flex", alignItems: "center", gap: "20px", flexWrap: "wrap" }}>
         <a href="#top" style={{ display: "flex", alignItems: "center" }}>
-          <Img src="/assets/logo-primary.png" alt="대림 아이제이팩" preload style={{ height: "34px" }} />
+          <Img src="/assets/logo-primary.webp" alt="대림 아이제이팩" preload style={{ height: "34px" }} />
         </a>
         <nav className="site-nav" style={{ display: "flex", alignItems: "center", gap: "22px", marginLeft: "auto", whiteSpace: "nowrap", flexShrink: 0 }}>
           {navItems.map((item) => (
