@@ -30,6 +30,7 @@ export const metadata: Metadata = {
   description,
   keywords: ["아이제이팩", "IJPAK", "대림", "연포장", "비닐 포장재", "파우치", "친환경 포장재", "그라비어 인쇄", "녹색기술인증"],
   alternates: { canonical: "/" },
+  verification: { other: { "naver-site-verification": "c9a881b04abbdd8628f0c82c758d9d05752b6de5" } },
   openGraph: {
     type: "website",
     locale: "ko_KR",
